@@ -99,8 +99,8 @@
                                     <segue destination="Icz-mb-oAH" kind="unwind" unwindAction="unwind:" id="8ht-Zo-QEk"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uZR-Ff-LBO">
-                                <rect key="frame" x="46" y="109" width="282" height="202"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uZR-Ff-LBO">
+                                <rect key="frame" x="67" y="146" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="3YA-vY-SAU"/>
                                     <constraint firstAttribute="width" secondItem="uZR-Ff-LBO" secondAttribute="height" multiplier="15:8" id="79N-x4-gxX"/>
@@ -110,10 +110,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="uZR-Ff-LBO" firstAttribute="centerX" secondItem="fca-NV-NZd" secondAttribute="centerX" id="BBG-Rw-iRd"/>
                             <constraint firstItem="icM-Ja-UNY" firstAttribute="centerX" secondItem="fca-NV-NZd" secondAttribute="centerX" id="g7B-aO-lug"/>
+                            <constraint firstItem="uZR-Ff-LBO" firstAttribute="centerY" secondItem="fca-NV-NZd" secondAttribute="centerY" constant="-123.5" id="onr-MJ-54j"/>
                             <constraint firstItem="icM-Ja-UNY" firstAttribute="centerY" secondItem="fca-NV-NZd" secondAttribute="centerY" constant="179.5" id="qv3-1N-dns"/>
-                            <constraint firstItem="uZR-Ff-LBO" firstAttribute="centerY" secondItem="fca-NV-NZd" secondAttribute="centerY" constant="-115.5" id="wCi-GI-x2g"/>
+                            <constraint firstItem="uZR-Ff-LBO" firstAttribute="centerX" secondItem="fca-NV-NZd" secondAttribute="centerX" id="zKl-wH-gOB"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bOT-Jb-VNX"/>
                     </view>
