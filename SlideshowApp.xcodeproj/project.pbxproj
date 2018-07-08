@@ -12,6 +12,10 @@
 		884A58EF20EB9D24003DB2EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884A58ED20EB9D24003DB2EA /* Main.storyboard */; };
 		884A58F120EB9D24003DB2EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884A58F020EB9D24003DB2EA /* Assets.xcassets */; };
 		884A58F420EB9D24003DB2EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884A58F220EB9D24003DB2EA /* LaunchScreen.storyboard */; };
+		884A590620F06A43003DB2EA /* kinniku.png in Resources */ = {isa = PBXBuildFile; fileRef = 884A590320F06A43003DB2EA /* kinniku.png */; };
+		884A590820F06EF4003DB2EA /* ImageTapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884A590720F06EF4003DB2EA /* ImageTapViewController.swift */; };
+		884A590B20F11F25003DB2EA /* text_shimekiri_mamoru.png in Resources */ = {isa = PBXBuildFile; fileRef = 884A590920F11F24003DB2EA /* text_shimekiri_mamoru.png */; };
+		884A590C20F11F25003DB2EA /* job_programmer.png in Resources */ = {isa = PBXBuildFile; fileRef = 884A590A20F11F24003DB2EA /* job_programmer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		884A58F020EB9D24003DB2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884A58F320EB9D24003DB2EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		884A58F520EB9D24003DB2EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884A590320F06A43003DB2EA /* kinniku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kinniku.png; sourceTree = "<group>"; };
+		884A590720F06EF4003DB2EA /* ImageTapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTapViewController.swift; sourceTree = "<group>"; };
+		884A590920F11F24003DB2EA /* text_shimekiri_mamoru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_shimekiri_mamoru.png; sourceTree = "<group>"; };
+		884A590A20F11F24003DB2EA /* job_programmer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job_programmer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 		884A58DD20EB9D24003DB2EA = {
 			isa = PBXGroup;
 			children = (
+				884A590720F06EF4003DB2EA /* ImageTapViewController.swift */,
 				884A58E820EB9D24003DB2EA /* SlideshowApp */,
 				884A58E720EB9D24003DB2EA /* Products */,
 			);
@@ -56,6 +65,9 @@
 			children = (
 				884A58E920EB9D24003DB2EA /* AppDelegate.swift */,
 				884A58EB20EB9D24003DB2EA /* ViewController.swift */,
+				884A590320F06A43003DB2EA /* kinniku.png */,
+				884A590A20F11F24003DB2EA /* job_programmer.png */,
+				884A590920F11F24003DB2EA /* text_shimekiri_mamoru.png */,
 				884A58ED20EB9D24003DB2EA /* Main.storyboard */,
 				884A58F020EB9D24003DB2EA /* Assets.xcassets */,
 				884A58F220EB9D24003DB2EA /* LaunchScreen.storyboard */,
@@ -123,7 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884A590620F06A43003DB2EA /* kinniku.png in Resources */,
+				884A590B20F11F25003DB2EA /* text_shimekiri_mamoru.png in Resources */,
 				884A58F420EB9D24003DB2EA /* LaunchScreen.storyboard in Resources */,
+				884A590C20F11F25003DB2EA /* job_programmer.png in Resources */,
 				884A58F120EB9D24003DB2EA /* Assets.xcassets in Resources */,
 				884A58EF20EB9D24003DB2EA /* Main.storyboard in Resources */,
 			);
@@ -137,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				884A58EC20EB9D24003DB2EA /* ViewController.swift in Sources */,
+				884A590820F06EF4003DB2EA /* ImageTapViewController.swift in Sources */,
 				884A58EA20EB9D24003DB2EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
