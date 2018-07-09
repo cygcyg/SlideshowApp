@@ -76,7 +76,7 @@ class ViewController: UIViewController {
     
 
     @IBAction func onTapImage(_ sender: Any) {//画像タップ
-        if(playmode && self.timer != nil){//再生ボタン動作中にタップした場合の処理
+        if(self.timer != nil){//再生ボタン動作中にタップした場合の処理
             self.timer.invalidate()//再生を停止させてから遷移させる
             self.timer = nil
             Playtype.setTitle("再生", for: .normal)
